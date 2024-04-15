@@ -81,25 +81,23 @@ export default {
 }
 
 .registration-container {
-  /* Display elements side-by-side */
   display: flex;
 }
 
 .registration-form {
-  flex: 1; /* Make form take up half the space */
-  /* Adjust form width as needed */
+  flex: 1; 
   max-width: 100%;
 }
 
 .registration-image {
-  flex: 1; /* Make image take up half the space */
-  /* Ensure image fits within container */
+  flex: 1; 
+  
   max-width: 100%;
-  height: auto; /* Maintain aspect ratio */
+  height: auto; 
 }
 
 .q-card {
-  box-shadow: none; /* Remove card shadow */
+  box-shadow: none;
 }
 
 .q-form {
@@ -110,7 +108,7 @@ export default {
   height: auto;
 }
 
-/* Styles for links */
+
 .links {
   display: flex;
   justify-content: center;
@@ -120,6 +118,6 @@ export default {
 .link-button {
   margin: 0 8px;
   text-decoration: none;
-  color: #1976d2; /* Adjust the color as needed */
+  color: #1976d2; 
 }
 </style>
