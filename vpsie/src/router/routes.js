@@ -24,18 +24,7 @@ const routes = [
   }
 ]
 
-// function requireAuth(to, from, next) {
-//   const isAuthenticated = // Check if user is authenticated (e.g., from your authentication state)
-//   if (!isAuthenticated) {
-//     next({ name: 'user-login', query: { redirect: to.fullPath } }); // Redirect to login page
-//   } else {
-//     // Fetch user information (e.g., name)
-//     const userInfo = // Fetch user information from authentication state or API
-//     next(vm => {
-//       vm.$store.commit('setUserInfo', userInfo);
-//     });
-//   }
-// }
+
 
 export default routes
 
