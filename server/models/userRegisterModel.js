@@ -32,7 +32,7 @@ const UserRegisterSchema= new mongoose.Schema({
                  // Password must contain at least one uppercase letter, one digit, and one special character
                 return /[A-Z]/.test(value) && /\d/.test(value) && /[@#\$%\^&\*]/.test(value);
             },
-            message: 'Password must contain at least one uppercase letter and one digit'
+            message: 'Password must contain at least one uppercase letter and one special character'
         }
     }
  
