@@ -56,8 +56,7 @@ export default {
         });
 
         if (response.status === 200) {
-          // Login successful
-          // You can redirect to the home page or perform any other actions here
+          
           console.log('Login successful');
         } else {
           // Handle other response statuses if needed
