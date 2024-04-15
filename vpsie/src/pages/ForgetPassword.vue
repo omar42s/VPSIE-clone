@@ -26,5 +26,4 @@ export default {
 </script>
 
 <style scoped>
-/* Add your forgot password page styles here */
 </style>
