@@ -22,7 +22,6 @@
         </q-card-section>
       </q-card>
 
-      <!-- Links to login and forgot password pages -->
       <div class="links">
         <router-link to="/user-login" class="link-button">Login</router-link>
         <router-link to="/forgetPass" class="link-button">Forgot Password</router-link>
@@ -61,7 +60,6 @@ export default {
         if(response.data.error === "User already registered"){
           console.log('user already registered')
         }
-        // Handle success response here (e.g., show success message)
       } catch (error) {
         console.error('Error registering user:', error);
       }
